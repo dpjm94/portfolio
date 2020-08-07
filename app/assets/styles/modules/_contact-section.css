@@ -1,0 +1,39 @@
+.contact-section{
+    margin-top: 40px;
+
+    @mixin atMediumItem{
+        margin-top: 60px;
+    }
+
+    &__btn-container{
+        margin-top: 40px;
+        text-align: center;
+        font-size: 1.1rem;
+
+        @mixin atSmallerContact{
+            text-align: left;
+        }
+    }
+
+    &__idea{
+        font-weight: 400;
+        font-style: normal;
+        font-size: 1.2rem;
+        
+
+        @mixin atSmallerContact{
+            float: left;
+        }
+
+        @mixin atMediumItem{
+            font-size: 1.5rem;
+        }
+    }
+
+    &__email{
+        font-weight: 400;
+        font-style: normal;
+        font-size: 1.1rem;
+        margin-top: 40px;
+    }
+}

@@ -1,0 +1,22 @@
+.site-footer{
+    padding: 2rem 0;
+    text-align: center;
+    background-color: rgba(0,0,0,0.05);
+    font-size: 1rem;
+    color: rgba(0,0,0,0.6);
+    margin-top: 60px;
+
+    @mixin atMediumItem{
+        margin-top: 80px;
+    }
+
+    &__text{
+        display: block;
+        
+
+        @mixin atMediumItem{
+            display: inline;
+            margin-bottom: 0;
+        }
+    }
+}

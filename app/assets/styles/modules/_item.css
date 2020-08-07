@@ -1,0 +1,73 @@
+.item{
+    position: relative;
+    max-width: 500px;
+    margin-right: auto;
+    margin-left: auto;
+    
+
+    @mixin atMediumItem{
+      max-width: none;
+    }
+
+    &__image{
+        width: 500px;
+
+        @mixin atMediumItem{
+            height: 290px;
+        }
+
+        @mixin atLargeItem{
+            height: 220px;
+        }
+
+        @mixin atLarge3Item{
+            height: 300px;
+        }
+    }
+
+    &__overlay{
+      position: absolute;
+      left: 0;
+      bottom: 2%;
+      width: 100%;
+      z-index: 10;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      transition: all .5s ease-out;
+      background-color: rgba(0,0,0,.2);
+
+    }
+
+    &__title{
+      font-size: 0.875rem;
+      color: #fff;
+      font-weight: 400;
+      padding: 8px 5px 8px 10px;
+      transition: all .3s ease-out;
+
+      @mixin atSmall{
+        font-size: 1.2rem;
+      }
+    }
+
+    &__view{
+      display: inline-block;
+      text-align: center;
+      padding: 8px 10px 8px 5px;
+      font-size: 0.875rem;
+      color: #ccc;
+      transition: all .5s ease-out;
+
+      &:hover{
+        color: #fff;
+      }
+
+      @mixin atSmall{
+        font-size: 1rem;
+      }
+
+    }
+  
+      
+}

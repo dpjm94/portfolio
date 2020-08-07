@@ -1,0 +1,116 @@
+.modal{
+    opacity: 0;
+    visibility: hidden;
+    transform: scale(1.2);
+    transition: all .3s ease-out;
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: rgba(240,240,240,0.95);
+    z-index: 5;
+    padding-top: 30px;
+
+    @mixin atSmall{
+        display: flex;
+        padding-top: 0;
+    }
+
+    &--is-visible{
+        opacity: 1;
+        visibility: visible;
+        transform: scale(1);
+    }
+    
+
+    &__inner {
+        flex: 1;
+        margin: auto;
+    }
+
+    &__form{
+
+        fieldset{
+            border: none;
+            margin: 0 0 20px;
+            padding: 0.5em 0 0 0;
+        }
+
+        input, textarea{
+            background-color: #fff;
+            padding: 10px;
+            width: 100%;
+            margin: 0;
+            border: none;
+            font-size: 15px;
+        }
+
+        textarea{
+            height: 120px;
+
+            @mixin atSmaller{
+                height: 200px;
+            }
+        }
+
+        button{
+            padding: 10px;
+            color: rgba(0,0,0,0.32);
+            font-size: 15px;
+            width: 100%;
+            border: 1px solid rgba(0,0,0,0.2);
+            border-radius: 10px;
+
+            @mixin atSmall{
+                float: left;
+                width: 50%;
+            }
+
+            &:hover{
+                color: rgba(0,0,0,0.40);
+
+                @mixin atSmall{
+                    border: 1px solid rgba(0,0,0,0.32);
+                }
+                
+            }
+        }
+
+
+    }
+
+    &__title{
+        margin-top: 30px;
+        margin-bottom: 10px;
+        text-align: left;
+        font-size: 18px;
+
+        @mixin atSmall{
+            font-size: 22px;
+            margin-top: 15px;
+            margin-bottom: 20px;
+        }
+
+    }
+
+    &__close{
+        position: absolute;
+        top: 15px;
+        right: 15px;
+        font-size: 1.5rem;
+        cursor: pointer;
+        color: rgba(0,0,0,0.32);
+        transform: scaleX(1.2);
+        transform-origin: 100% 0;
+
+        @mixin atSmall{
+            font-size: 2rem;
+        }
+
+        &:hover{
+            color: rgba(0,0,0,0.50);
+        }
+        
+    }
+}
