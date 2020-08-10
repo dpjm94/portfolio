@@ -10,7 +10,7 @@
   • Inside the app, Lock screen authentication for extra security.
   • Allows employees to fill a form of choice and save as a pdf.
   
-<img src="https://github.com/dpjm94/portfolio/blob/master/app/assets/images/screenshots/Screenshot%202020-08-07%20at%2018.48.50.png" width="100">
+<img src="https://github.com/dpjm94/portfolio/blob/master/app/assets/images/screenshots/Screenshot%202020-08-07%20at%2018.48.50.png" width="300">
   
   
 
