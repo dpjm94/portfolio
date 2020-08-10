@@ -4,7 +4,7 @@
 
 ## My portfolio
 
-# 1. Euro-City Eastern Mobile Application. 
+#### 1. Euro-City Eastern Mobile Application. 
   * Developed a Euro-City Eastern app for iOS/Android with ionic 3.
   * The app is design to create PDF files with ionic PDFMake and store them into device.
   * Inside the app, Lock screen authentication for extra security.
