@@ -18,3 +18,8 @@
    
  <img src="https://github.com/dpjm94/portfolio/blob/master/app/assets/images/screenshots/Screenshot%202020-08-10%20at%2021.44.53.png" width="600">
 
+#### 3.  Travel website 
+   * Cross-browser compliant HTML, CSS (BEM & PostCSS) JavaScript (NPM & webpack)
+   * Responsive 
+   
+   <img src="">
