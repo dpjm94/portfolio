@@ -12,10 +12,9 @@
 <img src="https://github.com/dpjm94/portfolio/blob/master/app/assets/images/screenshots/Screenshot%202020-08-07%20at%2018.49.32.png" width="300">
 <img src="https://github.com/dpjm94/portfolio/blob/master/app/assets/images/screenshots/Screenshot%202020-08-07%20at%2018.48.50.png" width="600">
 
+
 #### 2. Catalogue application using MERN Stack
    * Using MERN Stack React, Node and MongoDB powered Ecommerce Application.
    
- 
+ <img src="https://github.com/dpjm94/portfolio/blob/master/app/assets/images/screenshots/Screenshot%202020-08-10%20at%2021.44.53.png" width="600">
 
-
-   
