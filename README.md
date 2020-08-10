@@ -24,4 +24,3 @@
    * Responsive 
    
    <img src="https://github.com/dpjm94/portfolio/blob/master/app/assets/images/screenshots/Screenshot%202020-08-10%20at%2022.11.19.png" width="300">
-   <img src="https://github.com/dpjm94/portfolio/blob/master/app/assets/images/screenshots/Screenshot%202020-08-10%20at%2022.39.25.png" width="600">
