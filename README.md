@@ -3,7 +3,7 @@
 ## I'm a Developer & Artist
 
 * I'm currently working on website designing!
-* I'm currently learning testing, design, react.js
+* I'm currently learning testing, designing, react.js
 * I'm looking to collaborate on creating content!
 
 ## My portfolio
@@ -23,10 +23,5 @@
    * Using MERN Stack React, Node and MongoDB powered Ecommerce Application.
    * Responsive
    
- <img src="https://github.com/dpjm94/portfolio/blob/master/app/assets/images/Screenshot%202020-08-10%20at%2021.44.53.png" width="600">
-
-#### 3.  Travel website 
-   * Cross-browser compliant HTML, CSS (BEM & PostCSS) JavaScript (NPM & webpack)
-   * Responsive 
+ <img src="https://github.com/dpjm94/portfolio/blob/master/app/assets/images/petShopScreen.png" width="600">
    
-   <img src="https://github.com/dpjm94/portfolio/blob/master/app/assets/images/Screenshot%202020-08-10%20at%2022.11.19.png" width="300">
