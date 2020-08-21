@@ -2,6 +2,10 @@
 
 ## I'm a Developer & Artist
 
+* I'm currently working on website designing!
+* I'm currently learning testing, design, react.js
+* I'm looking to collaborate on creating content!
+
 ## My portfolio
 
 #### 1. Euro-City Eastern Mobile Application. 
