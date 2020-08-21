@@ -15,7 +15,7 @@
   
 <img src="https://github.com/dpjm94/portfolio/blob/master/app/assets/images/icon.png" width="200">
 <img src="https://github.com/dpjm94/portfolio/blob/master/app/assets/images/Screenshot%202020-08-07%20at%2018.49.32.png" width="300">
-<img src="https://github.com/dpjm94/portfolio/blob/master/app/assets/images/Screenshot%202020-08-07%20at%2018.48.50.png" width="600">
+<img src="https://github.com/dpjm94/portfolio/blob/master/app/assets/images/euroThree.png" width="600">
 
 
 
