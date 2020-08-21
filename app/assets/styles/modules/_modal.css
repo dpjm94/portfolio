@@ -8,7 +8,7 @@
     bottom: 0;
     left: 0;
     right: 0;
-    background-color: rgba(240,240,240,0.95);
+    background-color: rgb(255, 255, 255);
     z-index: 5;
     padding-top: 30px;
 
@@ -28,6 +28,40 @@
         flex: 1;
         margin: auto;
     }
+
+    &__pull-left{
+        text-align: left;
+    }
+
+    &__subtitle{
+        font-weight: 200;
+        font-size: 1.8rem;
+    }
+
+    &__skill_title{
+        margin: 40px 0 0 0;
+    }
+
+    &__container {
+        width: 100%;
+        background-color: #ddd;
+      }
+      
+    &__skills {
+        text-align: right;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        color: white;
+      }
+      
+    &__html {width: 90%; background-color: #4CAF50;}
+    &__css {width: 90%; background-color: #2196F3;}
+    &__js {width: 65%; background-color: #f44336;}
+    &__php {width: 70%; background-color: #808080;}
+    &__mobile {width: 85%; background-color: #f38327;}
+    &__photo {width: 85%; background-color: #9717ff;}
+    &__java {width: 50%; background-color: #9aff17;}
+
 
     &__form{
 
@@ -114,3 +148,5 @@
         
     }
 }
+
+

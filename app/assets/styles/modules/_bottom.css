@@ -1,0 +1,14 @@
+.bottom{
+    &__box{
+        border: 1px solid rgba(0,0,0,0.1);
+        padding: 20px 70px 20px 70px;
+
+        @mixin atMediumItem{
+            padding: 50px 100px 50px 100px;
+        }
+    }
+
+    &__image{
+        width: 100%;
+    }
+}

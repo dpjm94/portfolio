@@ -1,31 +1,15 @@
 import '../styles/styles.css'
 import 'lazysizes'
+import Shots from './modules/Shots'
 import MobileMenu from './modules/MobileMenu'
 import RevealOnScroll from './modules/RevealOnScroll'
-import Dribble from './modules/Dribble'
+import Modal from './modules/Modal'
 
+new Modal()
+new Shots();
 new ClipboardJS('.btn');
 new RevealOnScroll(document.querySelectorAll(".contact-section"), 80);
 new MobileMenu();
-new Dribble();
-let modal
-
-document.querySelectorAll(".open-modal").forEach(el => {
-    el.addEventListener("click", e => {
-        e.preventDefault()
-        if(typeof modal == "undefined"){
-            import(/* webpackChunkName: 'modal' */'./modules/Modal').then(x => {
-                modal = new x.default()
-                setTimeout(() => modal.openTheModal(), 20)
-            }).catch(() => console.log("There was a problem.."))
-        }else{
-            modal.openTheModal()
-        }
-    })
-})
-
-
-
 
 if(module.hot){
     module.hot.accept()

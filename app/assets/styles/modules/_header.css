@@ -25,13 +25,13 @@
     }
 
     &__photo{
-        border-radius: 30rem;
-        width: 60px;
-        margin: 0 auto 30px;
+        width: 100px;
+        margin: 0 auto 10px;
         display: block;
         
         @mixin atSmall{
-            width: 80px;
+            width: 150px;
+            margin: 0 auto 20px;
         }
 
         @mixin atMedium{
@@ -41,10 +41,26 @@
 
     &__name{
         color: $mainGrey;
-        font-weight: 500;
-        font-size: 1.7rem;
+        font-weight: 400;
+        font-size: 2rem;
         text-transform: uppercase;
         margin: 0;
+
+        @mixin atSmall{
+            font-size: 2.5rem
+        }
+    }
+
+    &__side_section{
+        width: 100%;
+        text-align:  left;
+        margin: 50px 0 30px 0;
+    }
+
+    &__title{
+        font-weight: 200;
+        font-size: 1.5rem;
+        
     }
 
     &__name_port{

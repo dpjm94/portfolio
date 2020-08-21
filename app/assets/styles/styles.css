@@ -5,17 +5,18 @@
 @import "modules/_header";
 @import "modules/_wrapper";
 @import "modules/_gridbook";
-@import "modules/_section-title";
 @import "modules/_row";
-@import "modules/_page-section";
+@import "modules/_project";
 @import "modules/_item";
-@import "modules/_btn";
 @import "modules/_site-footer";
 @import "modules/_site-header";
 @import "modules/_primary-nav";
+@import "modules/_shots";
+@import "modules/_modal";
 @import "modules/_contact-section";
 @import "modules/_reveal-item";
-@import "modules/_modal";
-@import "modules/_social-icons";
-@import "modules/_form-inquiry";
-@import "modules/_back-to-top";
+@import "modules/_btn";
+@import "modules/_middle";
+@import "modules/_template";
+@import "modules/_bottom";
+

@@ -35,6 +35,20 @@
         margin-bottom: 1rem;
     }
 
+    @mixin atSmall{
+        &__small-2{
+            float: left;
+            width: 50%;
+        }
+    }
+
+    @mixin atMedium{
+        &__medium-mobile-6{
+            float: left;
+            width: 50%;
+        }
+    }
+    
     @mixin atMediumItem {
 
         &__b-margin-until-medium{
@@ -67,6 +81,10 @@
 
         &__medium-8--smaller{
             width: 63%
+        }
+
+        &__medium-12{
+            width: 100%;
         }
     }
 

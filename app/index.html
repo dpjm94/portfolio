@@ -15,95 +15,122 @@
 
 <body>
 
-  <header class="site-header">
-    <div class="wrapper wrapper__medium wrapper__large">
- 
-     <div class="site-header__menu-icon">
-       <div class="site-header__menu-icon__middle"></div>
-     </div>
- 
-     <div class="site-header__menu-content">
-         
-         <nav class="primary-nav primary-nav--pull-right">
-           <ul>
-             <li><a href="./">Portfolio</a></li>
-             <li><a href="https://github.com/dpjm94?tab=projects">Github</a></li>
-           </ul>
-         </nav>
-       </div>
-    </div>
-   </header>
-
-  <div class="wrapper">
+  <div class="wrapper wrapper__no-margin-bottom">
     <div class="gridbook">
       <div class="header">
         <div class="header__text-content">
-          <img class="header__photo" src="assets/images/profile1.jpeg">
+          <img class="header__photo" src="assets/images/logo.png">
           <h1 class="header__name">Donal Maher</h1>
-          <h2 class="header__location">Co.Kerry, Ireland</h2>
+          
+          <!-- <h2 class="header__location">Co.Kerry, Ireland</h2>
           <h2 class="header__bio">Web developer, Artist, Footballer</h2>
-          <p class="header__skills">Web design, mobile design, ionic, illustration, drawing, painting</p>
+           -->
+         
+            <nav class="primary-nav">
+              <ul>
+                <li><a href="./index.html">Projects</a></li>
+                <li><a href="#shots" id="shots-link">Shots</a></li>
+                <li><a href="#" class="open-modal">Bio</a></li>
+                <li><a href="#contact" id="contact-link">Contact</a></li>
+              </ul>
+            </nav>
+       
         </div>
       </div>
     </div>
   </div>
 
   
+  <div class="project">
+    <div class="wrapper wrapper__no-margin-bottom">
+      <div class="header__side_section">
+        <h2 class="header__title open-modal"> My Latest Projects</h2>
+      </div>
 
-  <div class="portfolio">
-    <div class="wrapper wrapper__medium wrapper__large">
-
-            <div class="header__text-content">
-              <h1 class="header__name_port">Portfolio</h1>
-            </div>
-
-      <!-- <div id="shots" class="row row--gutters-small"> -->
       <div class="row row--gutters-small">
-      <div class="row__medium-6 row__large-2 row__large3-4">
-          <div class="item">
-            <img class="item__image" src="assets/images/Screenshot 2020-08-07 at 18.48.50.png" alt="mobile design">
-            <div class="item__overlay">
-              <h2 class="item__title">Mobile Design</h2>
+       
+          <div class="row__small-2 row__medium-4">
+            <a href="./project_euro.html">
+            <div class="project__item">
+              <div class="project__image_wrap">
+              <img class="project__image" src="assets/images/euroThree.png" alt="mobile design">
+              <p class="project__image_desc">Click to see more</p>
+              </div>
+              <div class="project__overlay">
+                <h2 class="project__title">Euro-City Eastern</h2>
+                <p class="project__subtitle">Mobile Design</p>
+                <p class="project__arrow">&#10149;</p>
+              </div>
+            </div>
+            </a>
+        </div>
+        
+        
+
+        <div class="row__small-2 row__medium-4">
+          <a href="./project_pet.html">
+          <div class="project__item">
+            <div class="project__image_wrap">
+            <img class="project__image" src="assets/images/petShopScreen.png" alt="pet shop website">
+            <p class="project__image_desc">Click to see more</p>
+            </div>
+            <div class="project__overlay">
+              <h2 class="project__title">Pet Shop</h2>
+              <p class="project__subtitle">Side Project</p>
+              <p class="project__arrow">&#10149;</p>
             </div>
           </div>
+          </a>
+      </div>
+   
+      
       </div>
 
-      <div class="row__medium-6 row__large-2 row__large3-4">
-        <div class="item">
-          <img class="item__image" src="assets/images/Screenshot 2020-08-10 at 21.44.53.png" alt="web design">
-          <div class="item__overlay">
-            <h2 class="item__title">Web Design</h2>
-          </div>
-        </div>
-    </div>
-
-    <div class="row__medium-6 row__large-2 row__large3-4">
-      <div class="item">
-        <img class="item__image" src="assets/images/Screenshot 2020-08-10 at 22.11.19.png" alt="web design">
-        <div class="item__overlay">
-          <h2 class="item__title">Web Design</h2>
-        </div>
-      </div>
-    </div>
-    </div>
     </div>
   </div>
 
-  <div class="contact-section">
-    <div class="wrapper wrapper__small wrapper__medium wrapper__large">
+  <div class="shots" id="shots" data-matching-link="#shots-link">
+    <div class="wrapper">
+      <div class="header__side_section">
+        <h2 class="header__title">Shots</h2>
+      </div>
+
+      <div class="row row--gutters-small">
+        <div class="row__small-2 row__medium-4">
+            <div class="shots__grid">
+              <img class="shots__image" src="assets/images/PetDesktop.png">
+            </div>
+        </div>
+        <div class="row__small-2 row__medium-4">
+          <div class="shots__grid">
+            <img class="shots__image" src="assets/images/euroThree.png">
+          </div>
+      </div>
+      <div class="row__small-2 row__medium-4">
+        <div class="shots__grid">
+          <img class="shots__image" src="assets/images/EuroHomeScreen.png">
+        </div>
+    </div>
+
+    <div class="row__small-2 row__medium-4">
+      <div class="shots__grid">
+        <img class="shots__image" src="assets/images/petShopScreen.png">
+      </div>
+  </div>
+      </div>
+    </div>
+  </div>
+
+
+
+  <div class="contact-section" id="contact" data-matching-link="#contact-link">
+    <div class="wrapper">
       <p class="contact-section__idea">Have a great idea? Like what you see?</p>
       <div class="contact-section__btn-container">
       <a href="mailto:donalmaher1994@hotmail.com" class="btn" data-clipboard-text="donalmaher1994@hotmail.com" title="Copy my email address to clipboard">Get in Contact &#8594;</a>
       <p class="contact-section__email">donalmaher1994@hotmail.com</p>
     </div>
     </div>
-  </div>
-
-
-  <div class="back-to-top">
-    <a href="#">
-      <img title="back to header" src="http://cdn.dribbble.com/assets/icon-backtotop-1b04df73090f6b0f3192a3b71874ca3b3cc19dff16adc6cf365cd0c75897f6c0.png" alt="Backtotop icon">
-    </a>
   </div>
 
 
@@ -116,3 +143,5 @@
 </body>
 
 </html>
+          
+          
