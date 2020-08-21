@@ -16,16 +16,8 @@
         }
     }
 
-    &__box{
+    &__image-big-box{
         background-color: rgba(0,0,0,0.05);
-        padding: 50px;
-
-        @mixin atSmall{
-            padding: 30px;
-        }
-
-        @mixin atMediumItem{
-            padding: 80px;
-        }
+        padding: 20px;
     }
 }
